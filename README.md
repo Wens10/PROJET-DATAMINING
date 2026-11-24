@@ -10,7 +10,19 @@ Le Groupe Valmont exploite 32 hôtels de 3 à 5 étoiles en France. La direction
 
 ## 2. Données et décisions de nettoyage
 
-À compléter.
+Les deux fichiers fournis ont été audités dans `notebooks/00_analyse_exploratoire.ipynb`. Le fichier propre commun est `data/clean/valmont_clean.csv` : 800 réservations, 23 colonnes, aucune valeur manquante.
+
+| Constat | Volume | Décision |
+| --- | --- | --- |
+| Lignes strictement identiques | 140 | Supprimées : le fichier passe de 940 à 800 réservations |
+| Nombre de personnes manquant | 20 | Imputé par la médiane du segment déclaré (1 en affaires, 2 en loisir, 11 en groupe), avec une colonne indicatrice |
+| Petit-déjeuner manquant | 20 | Modalité « inconnu », avec une colonne indicatrice |
+| Séjours de 365 nuits | 3 | Saisie impossible : marqués, exclus des modèles, étudiés en question 9 |
+| Prix de la nuit à 0 € | 3 | Tarif non commercial : marqués, exclus de la grille tarifaire, étudiés en question 9 |
+| Délai de réservation de 0 jour | 4 | Réservations le jour même, plausibles : conservées |
+| Nuitées cumulées inférieures aux nuits du séjour | 78 | 10 % des lignes, trop pour une erreur : la colonne décrit l'historique du client. Conservée |
+
+**Unités vérifiées** : le prix ne varie ni avec le nombre de nuits ni avec la taille des groupes (corrélations de Spearman de −0,02). C'est donc un prix par nuit et par chambre. Les délais ont le même ordre de grandeur sur les quatre canaux (en jours) et les distances à la gare vont de 0,5 à 9,8 km. Aucune conversion n'a été nécessaire.
 
 ## 3. Réponses aux neuf questions
 
