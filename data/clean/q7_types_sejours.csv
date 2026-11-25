@@ -1,0 +1,795 @@
+reservation_id,type_num,type_sejour
+R700357,0,Groupe et séminaire
+R700658,1,Court séjour de dernière minute
+R700649,2,Long séjour individuel
+R700732,3,Réservation très anticipée
+R700098,3,Réservation très anticipée
+R700323,0,Groupe et séminaire
+R700613,2,Long séjour individuel
+R700056,1,Court séjour de dernière minute
+R700551,1,Court séjour de dernière minute
+R700725,3,Réservation très anticipée
+R700776,1,Court séjour de dernière minute
+R700467,0,Groupe et séminaire
+R700187,1,Court séjour de dernière minute
+R700013,3,Réservation très anticipée
+R700760,1,Court séjour de dernière minute
+R700060,0,Groupe et séminaire
+R700565,0,Groupe et séminaire
+R700372,0,Groupe et séminaire
+R700316,1,Court séjour de dernière minute
+R700396,2,Long séjour individuel
+R700508,3,Réservation très anticipée
+R700793,0,Groupe et séminaire
+R700108,2,Long séjour individuel
+R700489,2,Long séjour individuel
+R700289,1,Court séjour de dernière minute
+R700602,3,Réservation très anticipée
+R700764,1,Court séjour de dernière minute
+R700675,2,Long séjour individuel
+R700361,1,Court séjour de dernière minute
+R700686,0,Groupe et séminaire
+R700371,1,Court séjour de dernière minute
+R700585,1,Court séjour de dernière minute
+R700222,1,Court séjour de dernière minute
+R700171,3,Réservation très anticipée
+R700625,1,Court séjour de dernière minute
+R700751,1,Court séjour de dernière minute
+R700562,0,Groupe et séminaire
+R700334,1,Court séjour de dernière minute
+R700499,2,Long séjour individuel
+R700623,3,Réservation très anticipée
+R700683,2,Long séjour individuel
+R700443,0,Groupe et séminaire
+R700339,3,Réservation très anticipée
+R700025,0,Groupe et séminaire
+R700253,1,Court séjour de dernière minute
+R700706,2,Long séjour individuel
+R700024,3,Réservation très anticipée
+R700414,3,Réservation très anticipée
+R700784,3,Réservation très anticipée
+R700714,0,Groupe et séminaire
+R700305,0,Groupe et séminaire
+R700094,1,Court séjour de dernière minute
+R700419,3,Réservation très anticipée
+R700435,1,Court séjour de dernière minute
+R700053,0,Groupe et séminaire
+R700026,2,Long séjour individuel
+R700046,1,Court séjour de dernière minute
+R700481,1,Court séjour de dernière minute
+R700050,2,Long séjour individuel
+R700110,1,Court séjour de dernière minute
+R700788,3,Réservation très anticipée
+R700766,3,Réservation très anticipée
+R700389,1,Court séjour de dernière minute
+R700587,1,Court séjour de dernière minute
+R700344,1,Court séjour de dernière minute
+R700592,1,Court séjour de dernière minute
+R700720,0,Groupe et séminaire
+R700104,2,Long séjour individuel
+R700452,0,Groupe et séminaire
+R700500,2,Long séjour individuel
+R700063,1,Court séjour de dernière minute
+R700513,3,Réservation très anticipée
+R700370,3,Réservation très anticipée
+R700446,3,Réservation très anticipée
+R700109,1,Court séjour de dernière minute
+R700159,2,Long séjour individuel
+R700101,2,Long séjour individuel
+R700168,1,Court séjour de dernière minute
+R700220,1,Court séjour de dernière minute
+R700556,1,Court séjour de dernière minute
+R700125,0,Groupe et séminaire
+R700308,1,Court séjour de dernière minute
+R700734,3,Réservation très anticipée
+R700735,1,Court séjour de dernière minute
+R700685,2,Long séjour individuel
+R700164,1,Court séjour de dernière minute
+R700057,1,Court séjour de dernière minute
+R700598,2,Long séjour individuel
+R700148,2,Long séjour individuel
+R700769,2,Long séjour individuel
+R700445,1,Court séjour de dernière minute
+R700753,1,Court séjour de dernière minute
+R700270,2,Long séjour individuel
+R700061,0,Groupe et séminaire
+R700470,2,Long séjour individuel
+R700630,1,Court séjour de dernière minute
+R700547,0,Groupe et séminaire
+R700437,3,Réservation très anticipée
+R700699,0,Groupe et séminaire
+R700146,1,Court séjour de dernière minute
+R700684,0,Groupe et séminaire
+R700487,1,Court séjour de dernière minute
+R700457,0,Groupe et séminaire
+R700397,2,Long séjour individuel
+R700701,3,Réservation très anticipée
+R700326,2,Long séjour individuel
+R700627,3,Réservation très anticipée
+R700257,0,Groupe et séminaire
+R700395,1,Court séjour de dernière minute
+R700691,0,Groupe et séminaire
+R700034,2,Long séjour individuel
+R700202,2,Long séjour individuel
+R700140,2,Long séjour individuel
+R700430,1,Court séjour de dernière minute
+R700294,1,Court séjour de dernière minute
+R700179,1,Court séjour de dernière minute
+R700418,2,Long séjour individuel
+R700641,3,Réservation très anticipée
+R700099,2,Long séjour individuel
+R700285,2,Long séjour individuel
+R700695,0,Groupe et séminaire
+R700564,3,Réservation très anticipée
+R700620,3,Réservation très anticipée
+R700666,2,Long séjour individuel
+R700367,0,Groupe et séminaire
+R700426,1,Court séjour de dernière minute
+R700597,1,Court séjour de dernière minute
+R700128,2,Long séjour individuel
+R700542,1,Court séjour de dernière minute
+R700271,1,Court séjour de dernière minute
+R700689,1,Court séjour de dernière minute
+R700455,2,Long séjour individuel
+R700153,3,Réservation très anticipée
+R700681,3,Réservation très anticipée
+R700134,1,Court séjour de dernière minute
+R700794,3,Réservation très anticipée
+R700616,1,Court séjour de dernière minute
+R700504,3,Réservation très anticipée
+R700423,1,Court séjour de dernière minute
+R700048,0,Groupe et séminaire
+R700074,1,Court séjour de dernière minute
+R700345,1,Court séjour de dernière minute
+R700216,0,Groupe et séminaire
+R700441,1,Court séjour de dernière minute
+R700205,1,Court séjour de dernière minute
+R700557,1,Court séjour de dernière minute
+R700336,1,Court séjour de dernière minute
+R700563,2,Long séjour individuel
+R700097,1,Court séjour de dernière minute
+R700242,1,Court séjour de dernière minute
+R700330,1,Court séjour de dernière minute
+R700375,2,Long séjour individuel
+R700127,0,Groupe et séminaire
+R700531,2,Long séjour individuel
+R700204,1,Court séjour de dernière minute
+R700324,0,Groupe et séminaire
+R700080,1,Court séjour de dernière minute
+R700158,1,Court séjour de dernière minute
+R700362,1,Court séjour de dernière minute
+R700591,1,Court séjour de dernière minute
+R700248,0,Groupe et séminaire
+R700463,1,Court séjour de dernière minute
+R700614,3,Réservation très anticipée
+R700090,1,Court séjour de dernière minute
+R700586,1,Court séjour de dernière minute
+R700277,2,Long séjour individuel
+R700244,3,Réservation très anticipée
+R700237,3,Réservation très anticipée
+R700702,3,Réservation très anticipée
+R700480,1,Court séjour de dernière minute
+R700459,0,Groupe et séminaire
+R700301,2,Long séjour individuel
+R700541,0,Groupe et séminaire
+R700387,2,Long séjour individuel
+R700503,3,Réservation très anticipée
+R700422,1,Court séjour de dernière minute
+R700436,2,Long séjour individuel
+R700601,1,Court séjour de dernière minute
+R700756,2,Long séjour individuel
+R700015,2,Long séjour individuel
+R700256,2,Long séjour individuel
+R700408,0,Groupe et séminaire
+R700743,1,Court séjour de dernière minute
+R700795,1,Court séjour de dernière minute
+R700245,1,Court séjour de dernière minute
+R700485,1,Court séjour de dernière minute
+R700643,3,Réservation très anticipée
+R700147,1,Court séjour de dernière minute
+R700186,1,Court séjour de dernière minute
+R700473,2,Long séjour individuel
+R700351,1,Court séjour de dernière minute
+R700384,0,Groupe et séminaire
+R700358,1,Court séjour de dernière minute
+R700299,2,Long séjour individuel
+R700138,3,Réservation très anticipée
+R700054,2,Long séjour individuel
+R700449,3,Réservation très anticipée
+R700360,0,Groupe et séminaire
+R700051,0,Groupe et séminaire
+R700674,0,Groupe et séminaire
+R700493,3,Réservation très anticipée
+R700022,1,Court séjour de dernière minute
+R700670,0,Groupe et séminaire
+R700264,0,Groupe et séminaire
+R700409,1,Court séjour de dernière minute
+R700664,2,Long séjour individuel
+R700726,1,Court séjour de dernière minute
+R700668,1,Court séjour de dernière minute
+R700003,3,Réservation très anticipée
+R700656,3,Réservation très anticipée
+R700498,3,Réservation très anticipée
+R700518,1,Court séjour de dernière minute
+R700209,2,Long séjour individuel
+R700642,1,Court séjour de dernière minute
+R700142,1,Court séjour de dernière minute
+R700740,1,Court séjour de dernière minute
+R700618,3,Réservation très anticipée
+R700478,2,Long séjour individuel
+R700581,1,Court séjour de dernière minute
+R700471,1,Court séjour de dernière minute
+R700081,1,Court séjour de dernière minute
+R700595,3,Réservation très anticipée
+R700328,2,Long séjour individuel
+R700782,1,Court séjour de dernière minute
+R700645,1,Court séjour de dernière minute
+R700638,0,Groupe et séminaire
+R700624,2,Long séjour individuel
+R700066,3,Réservation très anticipée
+R700347,1,Court séjour de dernière minute
+R700009,2,Long séjour individuel
+R700673,1,Court séjour de dernière minute
+R700228,1,Court séjour de dernière minute
+R700515,0,Groupe et séminaire
+R700736,3,Réservation très anticipée
+R700752,3,Réservation très anticipée
+R700403,1,Court séjour de dernière minute
+R700728,1,Court séjour de dernière minute
+R700113,2,Long séjour individuel
+R700690,0,Groupe et séminaire
+R700680,1,Court séjour de dernière minute
+R700047,3,Réservation très anticipée
+R700064,3,Réservation très anticipée
+R700657,1,Court séjour de dernière minute
+R700283,1,Court séjour de dernière minute
+R700259,2,Long séjour individuel
+R700327,1,Court séjour de dernière minute
+R700540,1,Court séjour de dernière minute
+R700020,1,Court séjour de dernière minute
+R700768,1,Court séjour de dernière minute
+R700718,2,Long séjour individuel
+R700365,1,Court séjour de dernière minute
+R700069,0,Groupe et séminaire
+R700261,2,Long séjour individuel
+R700611,3,Réservation très anticipée
+R700431,3,Réservation très anticipée
+R700609,0,Groupe et séminaire
+R700771,1,Court séjour de dernière minute
+R700188,0,Groupe et séminaire
+R700251,0,Groupe et séminaire
+R700729,1,Court séjour de dernière minute
+R700318,0,Groupe et séminaire
+R700297,0,Groupe et séminaire
+R700558,0,Groupe et séminaire
+R700582,1,Court séjour de dernière minute
+R700314,2,Long séjour individuel
+R700569,2,Long séjour individuel
+R700660,3,Réservation très anticipée
+R700635,2,Long séjour individuel
+R700329,1,Court séjour de dernière minute
+R700296,2,Long séjour individuel
+R700777,1,Court séjour de dernière minute
+R700464,2,Long séjour individuel
+R700218,2,Long séjour individuel
+R700239,1,Court séjour de dernière minute
+R700682,1,Court séjour de dernière minute
+R700716,1,Court séjour de dernière minute
+R700192,1,Court séjour de dernière minute
+R700447,1,Court séjour de dernière minute
+R700191,0,Groupe et séminaire
+R700617,1,Court séjour de dernière minute
+R700779,3,Réservation très anticipée
+R700132,1,Court séjour de dernière minute
+R700589,1,Court séjour de dernière minute
+R700252,1,Court séjour de dernière minute
+R700750,3,Réservation très anticipée
+R700263,0,Groupe et séminaire
+R700070,2,Long séjour individuel
+R700272,3,Réservation très anticipée
+R700712,1,Court séjour de dernière minute
+R700115,1,Court séjour de dernière minute
+R700790,2,Long séjour individuel
+R700619,1,Court séjour de dernière minute
+R700580,3,Réservation très anticipée
+R700723,1,Court séjour de dernière minute
+R700785,3,Réservation très anticipée
+R700065,1,Court séjour de dernière minute
+R700278,1,Court séjour de dernière minute
+R700669,2,Long séjour individuel
+R700002,3,Réservation très anticipée
+R700229,2,Long séjour individuel
+R700349,1,Court séjour de dernière minute
+R700521,1,Court séjour de dernière minute
+R700510,0,Groupe et séminaire
+R700199,0,Groupe et séminaire
+R700466,1,Court séjour de dernière minute
+R700453,1,Court séjour de dernière minute
+R700741,0,Groupe et séminaire
+R700717,2,Long séjour individuel
+R700694,0,Groupe et séminaire
+R700703,2,Long séjour individuel
+R700662,2,Long séjour individuel
+R700748,0,Groupe et séminaire
+R700451,2,Long séjour individuel
+R700273,1,Court séjour de dernière minute
+R700650,3,Réservation très anticipée
+R700709,1,Court séjour de dernière minute
+R700177,3,Réservation très anticipée
+R700300,2,Long séjour individuel
+R700037,0,Groupe et séminaire
+R700236,3,Réservation très anticipée
+R700149,1,Court séjour de dernière minute
+R700217,1,Court séjour de dernière minute
+R700472,3,Réservation très anticipée
+R700505,3,Réservation très anticipée
+R700568,0,Groupe et séminaire
+R700350,0,Groupe et séminaire
+R700302,0,Groupe et séminaire
+R700008,1,Court séjour de dernière minute
+R700194,0,Groupe et séminaire
+R700626,1,Court séjour de dernière minute
+R700233,1,Court séjour de dernière minute
+R700390,1,Court séjour de dernière minute
+R700482,1,Court séjour de dernière minute
+R700731,1,Court séjour de dernière minute
+R700352,1,Court séjour de dernière minute
+R700193,2,Long séjour individuel
+R700235,1,Court séjour de dernière minute
+R700377,2,Long séjour individuel
+R700055,3,Réservation très anticipée
+R700399,1,Court séjour de dernière minute
+R700096,2,Long séjour individuel
+R700141,1,Court séjour de dernière minute
+R700651,1,Court séjour de dernière minute
+R700553,3,Réservation très anticipée
+R700530,1,Court séjour de dernière minute
+R700120,1,Court séjour de dernière minute
+R700442,2,Long séjour individuel
+R700062,1,Court séjour de dernière minute
+R700708,1,Court séjour de dernière minute
+R700388,3,Réservation très anticipée
+R700058,0,Groupe et séminaire
+R700223,0,Groupe et séminaire
+R700492,0,Groupe et séminaire
+R700672,1,Court séjour de dernière minute
+R700221,2,Long séjour individuel
+R700744,1,Court séjour de dernière minute
+R700004,0,Groupe et séminaire
+R700052,0,Groupe et séminaire
+R700017,1,Court séjour de dernière minute
+R700693,2,Long séjour individuel
+R700306,0,Groupe et séminaire
+R700155,1,Court séjour de dernière minute
+R700411,1,Court séjour de dernière minute
+R700632,3,Réservation très anticipée
+R700249,0,Groupe et séminaire
+R700596,1,Court séjour de dernière minute
+R700761,3,Réservation très anticipée
+R700791,1,Court séjour de dernière minute
+R700030,1,Court séjour de dernière minute
+R700755,1,Court séjour de dernière minute
+R700117,0,Groupe et séminaire
+R700465,3,Réservation très anticipée
+R700116,1,Court séjour de dernière minute
+R700454,0,Groupe et séminaire
+R700621,2,Long séjour individuel
+R700291,1,Court séjour de dernière minute
+R700027,1,Court séjour de dernière minute
+R700381,0,Groupe et séminaire
+R700307,2,Long séjour individuel
+R700707,1,Court séjour de dernière minute
+R700552,1,Court séjour de dernière minute
+R700200,1,Court séjour de dernière minute
+R700385,1,Court séjour de dernière minute
+R700780,2,Long séjour individuel
+R700590,1,Court séjour de dernière minute
+R700742,1,Court séjour de dernière minute
+R700484,1,Court séjour de dernière minute
+R700570,3,Réservation très anticipée
+R700280,1,Court séjour de dernière minute
+R700353,1,Court séjour de dernière minute
+R700600,3,Réservation très anticipée
+R700207,1,Court séjour de dernière minute
+R700379,1,Court séjour de dernière minute
+R700713,1,Court séjour de dernière minute
+R700511,1,Court séjour de dernière minute
+R700739,1,Court séjour de dernière minute
+R700023,1,Court séjour de dernière minute
+R700340,0,Groupe et séminaire
+R700778,1,Court séjour de dernière minute
+R700594,2,Long séjour individuel
+R700154,1,Court séjour de dernière minute
+R700175,1,Court séjour de dernière minute
+R700679,0,Groupe et séminaire
+R700733,1,Court séjour de dernière minute
+R700509,3,Réservation très anticipée
+R700491,0,Groupe et séminaire
+R700543,1,Court séjour de dernière minute
+R700528,1,Court séjour de dernière minute
+R700262,1,Court séjour de dernière minute
+R700082,2,Long séjour individuel
+R700526,2,Long séjour individuel
+R700407,3,Réservation très anticipée
+R700677,2,Long séjour individuel
+R700507,1,Court séjour de dernière minute
+R700038,1,Court séjour de dernière minute
+R700417,0,Groupe et séminaire
+R700163,2,Long séjour individuel
+R700333,1,Court séjour de dernière minute
+R700010,2,Long séjour individuel
+R700525,3,Réservation très anticipée
+R700319,3,Réservation très anticipée
+R700032,1,Court séjour de dernière minute
+R700534,3,Réservation très anticipée
+R700224,0,Groupe et séminaire
+R700382,1,Court séjour de dernière minute
+R700281,0,Groupe et séminaire
+R700676,2,Long séjour individuel
+R700514,0,Groupe et séminaire
+R700775,0,Groupe et séminaire
+R700772,1,Court séjour de dernière minute
+R700378,1,Court séjour de dernière minute
+R700667,2,Long séjour individuel
+R700089,0,Groupe et séminaire
+R700213,1,Court séjour de dernière minute
+R700321,0,Groupe et séminaire
+R700781,2,Long séjour individuel
+R700133,1,Court séjour de dernière minute
+R700346,1,Court séjour de dernière minute
+R700043,1,Court séjour de dernière minute
+R700007,1,Court séjour de dernière minute
+R700572,1,Court séjour de dernière minute
+R700320,0,Groupe et séminaire
+R700749,3,Réservation très anticipée
+R700603,1,Court séjour de dernière minute
+R700122,1,Court séjour de dernière minute
+R700040,2,Long séjour individuel
+R700304,1,Court séjour de dernière minute
+R700031,0,Groupe et séminaire
+R700567,1,Court séjour de dernière minute
+R700172,1,Court séjour de dernière minute
+R700284,0,Groupe et séminaire
+R700341,2,Long séjour individuel
+R700240,2,Long séjour individuel
+R700174,0,Groupe et séminaire
+R700652,0,Groupe et séminaire
+R700523,1,Court séjour de dernière minute
+R700071,0,Groupe et séminaire
+R700758,1,Court séjour de dernière minute
+R700145,0,Groupe et séminaire
+R700166,3,Réservation très anticipée
+R700392,1,Court séjour de dernière minute
+R700268,2,Long séjour individuel
+R700170,0,Groupe et séminaire
+R700310,1,Court séjour de dernière minute
+R700359,1,Court séjour de dernière minute
+R700093,2,Long séjour individuel
+R700322,3,Réservation très anticipée
+R700420,2,Long séjour individuel
+R700412,1,Court séjour de dernière minute
+R700644,1,Court séjour de dernière minute
+R700376,3,Réservation très anticipée
+R700243,1,Court séjour de dernière minute
+R700765,3,Réservation très anticipée
+R700087,1,Court séjour de dernière minute
+R700214,1,Court séjour de dernière minute
+R700309,1,Court séjour de dernière minute
+R700173,1,Court séjour de dernière minute
+R700425,1,Court séjour de dernière minute
+R700719,3,Réservation très anticipée
+R700118,2,Long séjour individuel
+R700119,1,Court séjour de dernière minute
+R700000,2,Long séjour individuel
+R700394,3,Réservation très anticipée
+R700401,1,Court séjour de dernière minute
+R700404,3,Réservation très anticipée
+R700571,1,Court séjour de dernière minute
+R700578,1,Court séjour de dernière minute
+R700162,0,Groupe et séminaire
+R700114,3,Réservation très anticipée
+R700150,0,Groupe et séminaire
+R700544,0,Groupe et séminaire
+R700368,3,Réservation très anticipée
+R700477,0,Groupe et séminaire
+R700532,1,Court séjour de dernière minute
+R700653,2,Long séjour individuel
+R700258,1,Court séjour de dernière minute
+R700786,1,Court séjour de dernière minute
+R700135,2,Long séjour individuel
+R700501,2,Long séjour individuel
+R700538,1,Court séjour de dernière minute
+R700608,1,Court séjour de dernière minute
+R700343,1,Court séjour de dernière minute
+R700746,2,Long séjour individuel
+R700577,1,Court séjour de dernière minute
+R700293,0,Groupe et séminaire
+R700364,1,Court séjour de dernière minute
+R700014,2,Long séjour individuel
+R700086,0,Groupe et séminaire
+R700165,2,Long séjour individuel
+R700335,2,Long séjour individuel
+R700059,1,Court séjour de dernière minute
+R700354,2,Long séjour individuel
+R700424,2,Long séjour individuel
+R700292,3,Réservation très anticipée
+R700041,1,Court séjour de dernière minute
+R700429,1,Court séjour de dernière minute
+R700079,3,Réservation très anticipée
+R700028,2,Long séjour individuel
+R700254,1,Court séjour de dernière minute
+R700696,0,Groupe et séminaire
+R700458,1,Court séjour de dernière minute
+R700383,3,Réservation très anticipée
+R700313,2,Long séjour individuel
+R700084,3,Réservation très anticipée
+R700574,0,Groupe et séminaire
+R700136,3,Réservation très anticipée
+R700111,2,Long séjour individuel
+R700178,1,Court séjour de dernière minute
+R700496,1,Court séjour de dernière minute
+R700129,2,Long séjour individuel
+R700337,2,Long séjour individuel
+R700124,2,Long séjour individuel
+R700226,1,Court séjour de dernière minute
+R700241,2,Long séjour individuel
+R700415,1,Court séjour de dernière minute
+R700593,1,Court séjour de dernière minute
+R700792,3,Réservation très anticipée
+R700610,1,Court séjour de dernière minute
+R700227,1,Court séjour de dernière minute
+R700537,0,Groupe et séminaire
+R700275,3,Réservation très anticipée
+R700126,1,Court séjour de dernière minute
+R700405,3,Réservation très anticipée
+R700019,0,Groupe et séminaire
+R700036,1,Court séjour de dernière minute
+R700139,1,Court séjour de dernière minute
+R700303,2,Long séjour individuel
+R700267,0,Groupe et séminaire
+R700533,1,Court séjour de dernière minute
+R700545,2,Long séjour individuel
+R700212,2,Long séjour individuel
+R700468,2,Long séjour individuel
+R700198,1,Court séjour de dernière minute
+R700527,3,Réservation très anticipée
+R700737,0,Groupe et séminaire
+R700342,1,Court séjour de dernière minute
+R700549,0,Groupe et séminaire
+R700386,0,Groupe et séminaire
+R700798,1,Court séjour de dernière minute
+R700206,1,Court séjour de dernière minute
+R700295,0,Groupe et séminaire
+R700715,2,Long séjour individuel
+R700073,1,Court séjour de dernière minute
+R700692,1,Court séjour de dernière minute
+R700659,1,Court séjour de dernière minute
+R700016,1,Court séjour de dernière minute
+R700439,2,Long séjour individuel
+R700091,2,Long séjour individuel
+R700088,1,Court séjour de dernière minute
+R700102,0,Groupe et séminaire
+R700238,1,Court séjour de dernière minute
+R700671,0,Groupe et séminaire
+R700246,0,Groupe et séminaire
+R700663,1,Court séjour de dernière minute
+R700157,1,Court séjour de dernière minute
+R700479,0,Groupe et séminaire
+R700799,1,Court séjour de dernière minute
+R700018,3,Réservation très anticipée
+R700121,3,Réservation très anticipée
+R700655,1,Court séjour de dernière minute
+R700274,1,Court séjour de dernière minute
+R700433,1,Court séjour de dernière minute
+R700311,2,Long séjour individuel
+R700705,1,Court séjour de dernière minute
+R700774,0,Groupe et séminaire
+R700546,1,Court séjour de dernière minute
+R700181,1,Court séjour de dernière minute
+R700184,1,Court séjour de dernière minute
+R700406,1,Court séjour de dernière minute
+R700606,2,Long séjour individuel
+R700520,2,Long séjour individuel
+R700380,2,Long séjour individuel
+R700410,1,Court séjour de dernière minute
+R700634,1,Court séjour de dernière minute
+R700369,2,Long séjour individuel
+R700754,3,Réservation très anticipée
+R700700,3,Réservation très anticipée
+R700078,1,Court séjour de dernière minute
+R700573,3,Réservation très anticipée
+R700637,1,Court séjour de dernière minute
+R700607,1,Court séjour de dernière minute
+R700796,1,Court séjour de dernière minute
+R700770,2,Long séjour individuel
+R700085,3,Réservation très anticipée
+R700416,1,Court séjour de dernière minute
+R700561,2,Long séjour individuel
+R700067,1,Court séjour de dernière minute
+R700536,3,Réservation très anticipée
+R700077,1,Court séjour de dernière minute
+R700105,1,Court séjour de dernière minute
+R700724,1,Court séjour de dernière minute
+R700559,2,Long séjour individuel
+R700522,1,Court séjour de dernière minute
+R700722,1,Court séjour de dernière minute
+R700490,3,Réservation très anticipée
+R700550,3,Réservation très anticipée
+R700783,1,Court séjour de dernière minute
+R700605,1,Court séjour de dernière minute
+R700363,2,Long séjour individuel
+R700548,2,Long séjour individuel
+R700160,2,Long séjour individuel
+R700011,0,Groupe et séminaire
+R700144,2,Long séjour individuel
+R700517,1,Court séjour de dernière minute
+R700427,1,Court séjour de dernière minute
+R700639,1,Court séjour de dernière minute
+R700176,2,Long séjour individuel
+R700440,1,Court séjour de dernière minute
+R700688,1,Court séjour de dernière minute
+R700231,2,Long séjour individuel
+R700210,1,Court séjour de dernière minute
+R700640,1,Court séjour de dernière minute
+R700143,1,Court séjour de dernière minute
+R700519,2,Long séjour individuel
+R700763,0,Groupe et séminaire
+R700298,1,Court séjour de dernière minute
+R700428,3,Réservation très anticipée
+R700612,0,Groupe et séminaire
+R700156,1,Court séjour de dernière minute
+R700539,0,Groupe et séminaire
+R700506,2,Long séjour individuel
+R700266,2,Long séjour individuel
+R700461,1,Court séjour de dernière minute
+R700576,2,Long séjour individuel
+R700338,1,Court séjour de dernière minute
+R700255,0,Groupe et séminaire
+R700789,2,Long séjour individuel
+R700665,1,Court séjour de dernière minute
+R700560,1,Court séjour de dernière minute
+R700208,3,Réservation très anticipée
+R700287,3,Réservation très anticipée
+R700001,1,Court séjour de dernière minute
+R700269,1,Court séjour de dernière minute
+R700265,0,Groupe et séminaire
+R700757,2,Long séjour individuel
+R700095,3,Réservation très anticipée
+R700042,1,Court séjour de dernière minute
+R700747,2,Long séjour individuel
+R700773,1,Court séjour de dernière minute
+R700628,3,Réservation très anticipée
+R700045,0,Groupe et séminaire
+R700161,0,Groupe et séminaire
+R700727,2,Long séjour individuel
+R700629,1,Court séjour de dernière minute
+R700288,1,Court séjour de dernière minute
+R700575,1,Court séjour de dernière minute
+R700315,0,Groupe et séminaire
+R700230,2,Long séjour individuel
+R700698,1,Court séjour de dernière minute
+R700767,1,Court séjour de dernière minute
+R700711,1,Court séjour de dernière minute
+R700076,2,Long séjour individuel
+R700633,1,Court séjour de dernière minute
+R700787,1,Court séjour de dernière minute
+R700476,1,Court séjour de dernière minute
+R700469,2,Long séjour individuel
+R700225,1,Court séjour de dernière minute
+R700331,2,Long séjour individuel
+R700588,1,Court séjour de dernière minute
+R700475,2,Long séjour individuel
+R700599,1,Court séjour de dernière minute
+R700421,3,Réservation très anticipée
+R700687,1,Court séjour de dernière minute
+R700182,3,Réservation très anticipée
+R700332,3,Réservation très anticipée
+R700438,0,Groupe et séminaire
+R700049,3,Réservation très anticipée
+R700005,1,Court séjour de dernière minute
+R700529,1,Court séjour de dernière minute
+R700234,1,Court séjour de dernière minute
+R700486,3,Réservation très anticipée
+R700497,1,Court séjour de dernière minute
+R700106,1,Court séjour de dernière minute
+R700488,0,Groupe et séminaire
+R700646,2,Long séjour individuel
+R700012,2,Long séjour individuel
+R700738,2,Long séjour individuel
+R700190,2,Long séjour individuel
+R700282,3,Réservation très anticipée
+R700029,0,Groupe et séminaire
+R700169,2,Long séjour individuel
+R700180,1,Court séjour de dernière minute
+R700100,2,Long séjour individuel
+R700197,0,Groupe et séminaire
+R700495,1,Court séjour de dernière minute
+R700721,0,Groupe et séminaire
+R700647,1,Court séjour de dernière minute
+R700201,1,Court séjour de dernière minute
+R700710,3,Réservation très anticipée
+R700373,2,Long séjour individuel
+R700678,2,Long séjour individuel
+R700366,3,Réservation très anticipée
+R700648,0,Groupe et séminaire
+R700797,1,Court séjour de dernière minute
+R700460,1,Court séjour de dernière minute
+R700413,1,Court séjour de dernière minute
+R700131,2,Long séjour individuel
+R700039,0,Groupe et séminaire
+R700434,1,Court séjour de dernière minute
+R700215,3,Réservation très anticipée
+R700555,1,Court séjour de dernière minute
+R700566,2,Long séjour individuel
+R700762,1,Court séjour de dernière minute
+R700474,0,Groupe et séminaire
+R700456,1,Court séjour de dernière minute
+R700260,1,Court séjour de dernière minute
+R700035,1,Court séjour de dernière minute
+R700276,2,Long séjour individuel
+R700636,0,Groupe et séminaire
+R700654,2,Long séjour individuel
+R700622,2,Long séjour individuel
+R700393,1,Court séjour de dernière minute
+R700107,1,Court séjour de dernière minute
+R700524,1,Court séjour de dernière minute
+R700203,0,Groupe et séminaire
+R700631,1,Court séjour de dernière minute
+R700021,1,Court séjour de dernière minute
+R700402,3,Réservation très anticipée
+R700083,1,Court séjour de dernière minute
+R700130,1,Court séjour de dernière minute
+R700661,3,Réservation très anticipée
+R700697,1,Court séjour de dernière minute
+R700286,1,Court séjour de dernière minute
+R700123,2,Long séjour individuel
+R700033,1,Court séjour de dernière minute
+R700516,1,Court séjour de dernière minute
+R700185,2,Long séjour individuel
+R700219,1,Court séjour de dernière minute
+R700356,1,Court séjour de dernière minute
+R700759,0,Groupe et séminaire
+R700092,3,Réservation très anticipée
+R700151,1,Court séjour de dernière minute
+R700317,2,Long séjour individuel
+R700448,1,Court séjour de dernière minute
+R700745,2,Long séjour individuel
+R700279,1,Court séjour de dernière minute
+R700583,1,Court séjour de dernière minute
+R700604,1,Court séjour de dernière minute
+R700374,1,Court séjour de dernière minute
+R700400,1,Court séjour de dernière minute
+R700704,2,Long séjour individuel
+R700072,1,Court séjour de dernière minute
+R700195,2,Long séjour individuel
+R700483,3,Réservation très anticipée
+R700137,1,Court séjour de dernière minute
+R700494,1,Court séjour de dernière minute
+R700462,1,Court séjour de dernière minute
+R700312,1,Court séjour de dernière minute
+R700290,3,Réservation très anticipée
+R700189,1,Court séjour de dernière minute
+R700112,1,Court séjour de dernière minute
+R700183,1,Court séjour de dernière minute
+R700152,2,Long séjour individuel
+R700325,1,Court séjour de dernière minute
+R700044,1,Court séjour de dernière minute
+R700444,3,Réservation très anticipée
+R700006,0,Groupe et séminaire
+R700250,1,Court séjour de dernière minute
+R700075,2,Long séjour individuel
+R700512,3,Réservation très anticipée
+R700432,1,Court séjour de dernière minute
+R700068,0,Groupe et séminaire
+R700167,1,Court séjour de dernière minute
+R700730,2,Long séjour individuel
+R700554,1,Court séjour de dernière minute
+R700584,1,Court séjour de dernière minute
+R700535,2,Long séjour individuel
+R700398,1,Court séjour de dernière minute
+R700348,2,Long séjour individuel
+R700615,0,Groupe et séminaire
+R700211,3,Réservation très anticipée
+R700579,3,Réservation très anticipée
+R700502,2,Long séjour individuel
+R700196,0,Groupe et séminaire
