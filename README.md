@@ -35,6 +35,36 @@ Pour chaque question : compréhension, méthode retenue, pourquoi celle-là, vé
 ### Q5. Prédire l'annulation à la réservation
 ### Q6. La règle de surréservation par hôtel
 ### Q7. Les vrais types de séjours
+
+*Wenceslas Bouity — `notebooks/Q7.ipynb`, branche `q7-types-sejours`*
+
+**Compréhension.** Les trois segments déclarés à la réservation (affaires, loisir, groupe) décrivent-ils vraiment la façon dont les clients réservent, et combien de types faut-il distinguer pour piloter une politique commerciale ?
+
+**Méthode.** Classification non supervisée sur les trois variables continues qui décrivent le séjour au moment où il est réservé : nombre de nuits, nombre de personnes, délai de réservation, centrées et réduites pour peser le même poids. Trois exclusions, chacune motivée : le segment déclaré, parce que c'est l'étiquette mise en doute ; l'annulation, parce que c'est un résultat, gardé pour la validation ; le prix de la nuit, parce que 89 % de sa variance vient de la catégorie de l'hôtel (eta² = 0,887) — il décrit l'hôtel, pas le séjour. K-means est comparé à une classification hiérarchique de Ward ; il est retenu pour sa meilleure silhouette (0,437 contre 0,338) et des classes plus équilibrées.
+
+**Choix de k.** Quatre critères construits différemment désignent tous k = 4 : coude de l'inertie (baisse de 300 en passant à 4 groupes, 112 seulement pour le cinquième), silhouette maximale (0,437), Calinski-Harabasz maximal (551), Davies-Bouldin minimal (0,881). Aucun ne désigne 3.
+
+**Vérifications.** Stabilité : sur 50 sous-échantillons de 80 %, la partition est reconstruite à ARI 0,972, et c'est le seul k dont le pire tirage reste au-dessus de 0,93. Les trois variables séparent toutes les groupes (Kruskal-Wallis, p < 10⁻⁸⁰) et aucune silhouette de groupe n'est sous 0,27. Les variables écartées ne cachaient pas de typologie : prix p = 0,30, week-end p = 0,09, petit-déjeuner p = 0,19, canal p = 0,30.
+
+**Résultat.** **Valmont a quatre types de séjours, pas trois.**
+
+| Type | Réservations | Personnes | Nuits | Délai médian | Annulation |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Court séjour de dernière minute | 363 (46 %) | 1,3 | 2,1 | 13 j | **18,7 %** |
+| Long séjour individuel | 171 (22 %) | 1,8 | 4,9 | 25 j | 22,8 % |
+| Groupe et séminaire | 134 (17 %) | 11,5 | 2,3 | 55 j | 33,6 % |
+| Réservation très anticipée | 126 (16 %) | 2,7 | 3,3 | **96 j** | **43,7 %** |
+
+Le quatrième type n'existe pas dans la typologie actuelle : il est dilué dans le segment « loisir », dont il porte pourtant le risque le plus élevé. L'accord entre les deux typologies n'est que de 0,37 (ARI) : 28 % des réservations du premier type sont déclarées « loisir » alors qu'elles se comportent comme des réservations d'affaires.
+
+**Décision.** Remplacer le segment déclaré par ces quatre types comme clé de segmentation dans l'outil de réservation. Le type se calcule dès la réservation à partir de trois champs déjà saisis, sans collecte nouvelle.
+
+**Gain.** La segmentation ne rapporte rien par elle-même, elle rend une décision possible : les quatre types étalent le risque d'annulation sur 25 points (18,7 % à 43,7 %) contre 17 points pour les trois segments déclarés, soit 47 % de pouvoir de séparation en plus sur la variable qui décide du revenu perdu. Le chiffrage est en Q8.
+
+**Limites et axes d'amélioration.** La frontière entre court et long séjour individuel est une convention de découpage, que Ward place ailleurs ; elle ne touche pas les deux types à forte annulation. Un historique client plus riche permettrait de distinguer, parmi les réservations très anticipées, celles qui annulent de celles qui tiennent. Un modèle de mélange gaussien donnerait une probabilité d'appartenance, utile pour les cas frontières.
+
+**Fichier produit.** `data/clean/q7_types_sejours.csv` — le type de chacune des 794 réservations analysées, pour que la Q8 et la synthèse repartent de la même affectation sans relancer K-means.
+
 ### Q8. Une politique par type de séjour
 ### Q9. Les réservations à bloquer
 
