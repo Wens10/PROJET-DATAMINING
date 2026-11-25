@@ -66,6 +66,41 @@ Le quatrième type n'existe pas dans la typologie actuelle : il est dilué dans 
 **Fichier produit.** `data/clean/q7_types_sejours.csv` — le type de chacune des 794 réservations analysées, pour que la Q8 et la synthèse repartent de la même affectation sans relancer K-means.
 
 ### Q8. Une politique par type de séjour
+
+*Wenceslas Bouity — `notebooks/Q8.ipynb`, branche `q8-politiques`*
+
+**Compréhension.** Pour chacun des quatre types identifiés en Q7 : ce qu'il rapporte, ce qu'il coûte en annulations, quand il remplit l'hôtel, et la condition de vente à lui appliquer. Plus la question posée par la direction : qui remplit les nuits de semaine ?
+
+**Méthode.** Profil chiffré de chaque type sur les variables laissées hors de la classification en Q7 — prix, annulation, services, semaine. C'est précisément parce qu'elles n'ont pas servi à construire les types qu'elles peuvent les décrire sans circularité. Le revenu potentiel (prix de la nuit × nombre de nuits) est décomposé en revenu réalisé et revenu annulé, pour hiérarchiser les types par leur coût réel en euros et non par leur taux. Chaque écart est testé avant d'être interprété : intervalles de Wilson sur les taux d'annulation, khi-deux sur la semaine et les services, correction de Bonferroni sur les comparaisons deux à deux.
+
+**Vérifications.** Jointure contrôlée (794 lignes des deux côtés). Les intervalles de confiance du type le plus sûr et du plus risqué ne se recouvrent pas ; ceux des deux types individuels se recouvrent, et aucune différence de risque n'en est tirée. Le lien entre type et semaine n'est pas significatif (p = 0,094) : c'est écrit comme tel. Le seuil opérationnel de 60 jours est validé sur le fichier. Le gain est assorti d'un seuil de rentabilité calculé.
+
+**Résultat.**
+
+| Type | Part | Panier | Annulation | Part du revenu annulé | Annulé par réservation |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Court séjour de dernière minute | 46 % | 415 € | 18,7 % | 26 % | 83 € |
+| Long séjour individuel | 22 % | **965 €** | 22,8 % | 28 % | 190 € |
+| Groupe et séminaire | 17 % | 441 € | 33,6 % | 16 % | 135 € |
+| Réservation très anticipée | 16 % | 631 € | **43,7 %** | **30 %** | **275 €** |
+
+25,4 % du revenu chambre potentiel part en annulation (115 279 € sur 454 228 €). **Qui remplit la semaine** : aucun type ne s'y distingue significativement ; en volume, les deux types individuels fournissent **68 % des 1 617 nuitées de semaine**, les groupes seulement 14 % malgré 77 % de leurs nuits en semaine.
+
+**Décision.** Quatre conditions de vente, dont deux seulement durcissent quelque chose, et qui ne touchent que 33 % des réservations :
+
+| Type | Condition proposée |
+| --- | --- |
+| Court séjour de dernière minute | Rien ne change : annulation gratuite jusqu'à la veille, mise en avant comme argument de vente |
+| Long séjour individuel | Tarif dégressif à partir de la 4ᵉ nuit, petit-déjeuner inclus au-delà de 3 nuits. Aucun durcissement |
+| Groupe et séminaire | Acompte de 30 % à la réservation, solde et reconfirmation à J-30 |
+| Réservation très anticipée | Acompte non remboursable de 30 % **au-delà de 60 jours de délai**, ou tarif flexible plus cher au choix du client |
+
+La règle des 60 jours est directement applicable dans le moteur de réservation : elle couvre 100 % du type, vise 221 réservations qui annulent à 40,3 % contre 20,6 % en deçà, et concentre 43 % du revenu annulé. Pour la semaine, le levier est le volume individuel, pas un changement de mix de clientèle.
+
+**Gain.** Scénario central (la mesure comble la moitié de l'écart avec le long séjour individuel) : **20 réservations sauvées et 11 470 € de revenu chambre récupérés par an** sur le périmètre analysé, soit 10 % du revenu actuellement annulé, ou 14 400 € par tranche de 1 000 réservations. Fourchette de 5 700 € à 22 900 € selon l'efficacité réelle de l'acompte. **Seuil de rentabilité** : la mesure reste gagnante tant qu'elle ne décourage pas plus de 16 % des réservations très anticipées.
+
+**Limites et axes d'amélioration.** Le gain repose sur une hypothèse comportementale — qu'un acompte réduit les annulations — qu'aucune donnée du fichier ne permet de tester ; d'où la fourchette et le seuil de rentabilité, et un test A/B sur deux mois pour trancher. Les probabilités individuelles de la Q5 permettraient de remplacer le seuil unique de 60 jours par un seuil calibré par hôtel. Le chiffrage ne couvre que le revenu chambre, faute de données sur le prix des services et le coût d'un délogement : il sous-estime donc le gain réel.
+
 ### Q9. Les réservations à bloquer
 
 ## 4. Synthèse : la nouvelle politique commerciale
