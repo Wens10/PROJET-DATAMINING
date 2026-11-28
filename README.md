@@ -45,11 +45,6 @@ Pour chaque question : compréhension, méthode retenue, pourquoi celle-là, vé
 Détail : `notebooks/Q5.ipynb`. Probabilités exportées : `data/clean/proba_annulation.csv`.
 
 ### Q6. La règle de surréservation par hôtel
-### Q7. Les vrais types de séjours
-### Q8. Une politique par type de séjour
-### Q9. Les réservations à bloquer
-
-## 4. Synthèse : la nouvelle politique commerciale
 
 **Méthode.** Taux d'annulation de chaque hôtel issu du modèle de la question 5, puis règle par la loi binomiale : on retient le plus grand nombre de chambres vendues en plus tel que le risque de refuser au moins un client reste sous 20 % (un refus coûte 4 fois le prix de la nuit). Hypothèse prudente : 25 % des annulations sont tardives.
 
@@ -60,6 +55,14 @@ Détail : `notebooks/Q5.ipynb`. Probabilités exportées : `data/clean/proba_ann
 **Décision et gain.** Un plafond par hôtel (`data/clean/regle_surreservation.csv`). Sur une nuit complète, 286 des 389 chambres laissées vides sont récupérées, pour environ 10 clients refusés sur le groupe : gain net de 46 200 €. Première amélioration : enregistrer la date de chaque annulation.
 
 Détail : `notebooks/Q6.ipynb`.
+
+### Q7. Les vrais types de séjours
+### Q8. Une politique par type de séjour
+### Q9. Les réservations à bloquer
+
+## 4. Synthèse : la nouvelle politique commerciale
+
+À compléter.
 
 ## 5. Structure du dépôt et reproduction
 
